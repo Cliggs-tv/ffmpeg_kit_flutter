@@ -11,12 +11,7 @@ environment:
 flutter:
   plugin:
     platforms:
-      android:
-        package: com.antonkarpenko.ffmpegkit
-        pluginClass: FFmpegKitFlutterPlugin
       ios:
-        pluginClass: FFmpegKitFlutterPlugin
-      macos:
         pluginClass: FFmpegKitFlutterPlugin
 
 dependencies:
